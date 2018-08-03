@@ -13,14 +13,7 @@
         <version>1.5.8.RELEASE</version>
     </parent>
 
-    <profiles>
-        <profile>
-            <id>sonar</id>
-            <properties>
-                <sonar.host.url>http://52.15.59.32:9000</sonar.host.url>
-                </properties>
-        </profile>
-    </profiles>
+    
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
