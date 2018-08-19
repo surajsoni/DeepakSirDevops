@@ -16,7 +16,7 @@
         <profile>
             <id>sonar</id>
             <properties>
-                <soanr.host.url>sonarqubeadd</soanr.host.url>
+                <soanr.host.url>sonarqubeaddurl</soanr.host.url>
             </properties>
         </profile>
     </profiles>
