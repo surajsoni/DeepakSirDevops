@@ -12,7 +12,14 @@
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>1.5.8.RELEASE</version>
     </parent>
-
+    <profiles>
+        <profile>
+            <id>sonar</id>
+            <properties>
+                <soanr.host.url>sonarqubeadd</soanr.host.url>
+            </properties>
+        </profile>
+    </profiles>
     
     <dependencies>
         <dependency>
